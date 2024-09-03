@@ -14,16 +14,18 @@ body{
 
 
 h1{ 
+    font-family: 'GrotesqueBourgeoisieRegular';
     font-size: 3.5em;
     margin-bottom: 30px;
 }
 h2{ 
-    font-family: sans-serif;
+    font-family: 'GrotesqueBourgeoisieRegular';
     font-size: 3em;
-    font-style: italic;
     margin-bottom: 20px;
 }
 h3{ 
+    font-family: 'GrotesqueBourgeoisieRegular';
+    font-style: italic;
     font-size: 1.5em;
     margin: 15px;
 }
@@ -213,9 +215,10 @@ footer p{
     margin: 0;
     padding: 12px;
     color: grey;
+    text-align: center;
 }
 
-footer .container{
+footer .container2{
     height: 150px;
     display: flex;
     justify-content: center;

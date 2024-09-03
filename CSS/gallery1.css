@@ -1,3 +1,18 @@
+h1 {
+    font-family: 'GrotesqueBourgeoisieRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+body {
+    background-color: goldenrod;
+}
+
 .galeria {
     display: flex;
     flex-wrap: wrap;
@@ -5,8 +20,8 @@
 }
 
 .galeria img {
-    width: 30%;
-    margin: 10px;
+    width: 22%;
+    margin: 20px;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
