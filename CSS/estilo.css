@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+h1{ 
+    font-size: 3.5em;
+    margin-bottom: 30px;
+}
+h2{ 
+    font-size: 2.7em;
+    margin-bottom: 20px;
+}
+h3{ 
+    font-size: 2em;
+}
+p{ 
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.5);
+    color: white;
+    background-color: goldenrod;
+}
+
+button:hover{
+    background-color: rgb(184, 136, 16);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(245, 245, 245);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bolder;
+    color: goldenrod;
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: goldenrod;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("fondo2.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+#hero button{
+    font-size: 2em;
+}
+
+#hero a {
+    text-decoration: none;
+    color: white;
+}
+
+#quien-soy .container{
+    text-align: center;
+    padding: 200px 12px;
+    background-color: white;
+}
+
+#quien-soy h2{
+    color: goldenrod;
+}
+
+#quien-soy em{
+    color: goldenrod;
+}
+
+#mis_viajes{
+    background-color: rgb(184, 136, 16);
+    color: white;
+    text-align: center;
+}
+
+#mis_viajes .container{
+    padding: 100px 0px;
+}
+
+#mis_viajes h2{
+    margin-top: 0;
+    font-size: 3,5em;
+    text-align: center;
+}
+
+#mis_viajes h3{
+    font-size: 5vw;
+}
+
+#mis_viajes p{
+    display: none;
+}
+
+#mis_viajes .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 80px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Fondo1.PNG");
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Fondo1.PNG");
+}
+
+.carta:last-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Fondo1.PNG");
+}
+
+footer{
+    background-color: rgb(230, 230, 230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: grey;
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width:720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #quien-soy .container{
+        display: flex;
+        justify-content: center;
+    }
+
+    #quien-soy .texto{
+        border: goldenrod 2px solid;
+        margin: 20px;
+        width: 50%;
+        max-width: 600px;
+        text-align: center;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #quien-soy .img-container{
+        background-image: url("mi-foto.jpeg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 200px;
+        margin-right: 20px;
+    }
+}
