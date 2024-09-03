@@ -3,7 +3,8 @@
     margin: 0;
 }
 
-html{scroll-behavior: smooth;
+html {
+    scroll-behavior: smooth;
 }
 
 body{
@@ -111,6 +112,11 @@ header a:hover{
     font-size: 2em;
 }
 
+#hero a {
+    text-decoration: none;
+    color: white;
+}
+
 #quien-soy .container{
     text-align: center;
     padding: 200px 12px;
@@ -125,36 +131,57 @@ header a:hover{
     color: goldenrod;
 }
 
-#memes-de-programacion{
+#mis_viajes{
     background-color: rgb(184, 136, 16);
     color: white;
     text-align: center;
 }
 
-#memes-de-programacion .container{
+#mis_viajes .container{
     padding: 100px 0px;
 }
 
-#memes-de-programacion h2{
+#mis_viajes h2{
     margin-top: 0;
     font-size: 3,5em;
     text-align: center;
 }
 
-#memes-de-programacion h3{
+#mis_viajes h3{
     font-size: 5vw;
 }
 
-#memes-de-programacion p{
+#mis_viajes p{
     display: none;
 }
 
-#memes-de-programacion .carta{
+#mis_viajes .carta{
     background-position: center center;
     background-size: cover;
-    padding: 250px;
-    margin: 0;
+    padding: 80px 0px;
+    margin: 30px;
     border-radius: 15px;
+}
+
+.carta:first-child {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Fondo1.PNG");
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("Fondo1.PNG");
+}
+
+.carta:last-child{
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
