@@ -207,6 +207,46 @@ header a:hover{
     ,url("../F1.png");
 }
 
+#memes{
+    background-color: rgb(206, 159, 41);
+    color: white;
+    text-align: center;
+}
+
+#memes .card{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../Memes.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 200px 0px;
+    margin: 30px;
+    border-radius: 15px;
+        
+}
+
+#memes .container3 {
+    padding: 100px 0px;
+}
+
+#memes h2 {
+    margin-top: 0;
+    font-size: 3.5em; /* Corrigido para usar un punto decimal */
+    text-align: center;
+}
+
+#memes h3 {
+    font-size: 5vw;
+}
+
+#memes p {
+    display: none;
+}
+
 footer{
     background-color: rgb(230, 230, 230);
 }
