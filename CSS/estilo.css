@@ -186,7 +186,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../Fondo1.PNG");
+    ,url("../S1.png");
 }
 
 .carta:nth-child(2){
@@ -195,7 +195,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../Fondo1.PNG");
+    ,url("../A1.png");
 }
 
 .carta:last-child{
@@ -204,7 +204,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../Fondo1.PNG");
+    ,url("../F1.png");
 }
 
 footer{
