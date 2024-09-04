@@ -256,16 +256,20 @@ footer{
 
 footer p{
     margin: 0;
-    padding: 12px;
-    color: grey;
+    padding: 15px;
+    color: goldenrod;
     text-align: center;
 }
 
 footer .container2{
-    height: 150px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+
+footer img.footer-img{
+    max-width: 70px;
 }
 
 @media (min-width:720px){
