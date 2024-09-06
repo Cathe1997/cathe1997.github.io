@@ -1,3 +1,90 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* Estilos específicos para el header */
+header {
+    background-color: rgb(245, 245, 245);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bolder;
+    color: goldenrod;
+    font-size: 1.6em;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover {
+    color: goldenrod;
+}
+
+/* Espacio debajo del header */
+body {
+    padding-top: 100px; /* Ajusta este valor al tamaño del header */
+}
+
+/* Estilos para pantallas grandes */
+@media (min-width: 720px) {
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    /* Ajustar el espacio superior en pantallas más grandes */
+    body {
+        padding-top: 80px; /* Ajustar según la altura del header en pantallas grandes */
+    }
+}
+/* fin del header */
+
 h1 {
     font-family: 'GrotesqueBourgeoisieRegular';
     font-weight: normal;
@@ -6,7 +93,7 @@ h1 {
     color: white;
     margin-bottom: 20px;
     text-align: center;
-    margin: 20px;
+    margin: 30px;
 }
 
 body {
