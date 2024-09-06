@@ -80,7 +80,7 @@ body {
 
     /* Ajustar el espacio superior en pantallas más grandes */
     body {
-        padding-top: 80px; /* Ajustar según la altura del header en pantallas grandes */
+        padding-top: 80px;
     }
 }
 /* fin del header */
@@ -173,4 +173,26 @@ body {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+}
+
+footer{
+    background-color: rgb(230, 230, 230);
+}
+
+footer p{
+    margin: 0;
+    padding: 15px;
+    color: goldenrod;
+    text-align: center;
+}
+
+footer .container2{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer img.footer-img{
+    max-width: 70px;
 }
